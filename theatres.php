@@ -79,17 +79,17 @@ body {
 <div class="row">
   <div class="column">
     <h2>PVR Theatre</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>It is approximately 3 km from VIT.It shows all movies (Bollywood,Tollywood,Hollywood).One of the most premium theatre of Vellore and is recently established.It is situated in Silk Mills.</p>
 <img src="pvr.jpg" width=240 height=300>
   </div>
   <div class="column">
     <h2>Galaxy Theatre</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>It is approximately less than 1 km from VIT.One can reach there walking as well.It shows all movies (Bollywood,Tollywood,Hollywood).One of the oldest theatre of Vellore .It is situated inext to Chittor Bus stand.</p>
 <img src="galaxy.jpg" width=240 height=300>
   </div>
   <div class="column">
     <h2>Vishnu theatre</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>It is approximately 4 km from VIT.It shows all movies (Bollywood,Tollywood,Hollywood).One of the most comfortable theatre of Vellore .Generally you will find all VIT population over there.</p>
 <img src="vishnu.jpg" width=240 height=300>
   </div>
 </div>

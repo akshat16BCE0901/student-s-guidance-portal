@@ -41,7 +41,7 @@ if ($uploadOk == 0) {
     {
         echo "NOt stored";
     }
-    if (move_uploaded_file($_FILES["qpfile"]["tmp_name"], $target_file)) {
+    if ($uploadOk==1){
         echo "The file ". basename( $_FILES["qpfile"]["name"]). " has been uploaded.";
     } else {
         echo "Sorry, there was an error uploading your file.";

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 25, 2015 at 07:26 AM
+-- Generation Time: Oct 25, 2018 at 02:20 PM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -213,6 +213,26 @@ INSERT INTO `question` (`question_id`, `heading`, `question_detail`, `datetime`,
 (40, 'Connection speed', 'How to increase the speed of your broadband connection?', '2012-04-25 14:53:08', 9, 20, 2),
 (41, 'THREADING', 'WHAT IS THREADING?', '2012-04-27 06:05:09', 32, 12, 12),
 (42, 'Who is the father of php', 'Any one tell me who is the father of php ???????', '2015-10-25 07:12:11', 8, 12, 2);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `questionpapers`
+--
+
+CREATE TABLE IF NOT EXISTS `questionpapers` (
+  `coursecode` varchar(40) NOT NULL,
+  `coursename` varchar(40) NOT NULL,
+  `paper` longblob NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `questionpapers`
+--
+
+INSERT INTO `questionpapers` (`coursecode`, `coursename`, `paper`) VALUES
+('ty', 'tytyt', 0x3136424345303930312e646f6378),
+('uio', 'tyu', 0x46414c4c53454d323031382d31395f435345343031355f4554485f534a543730345f564c323031383139313030363131395f41737369676e6d656e7420495f435345343031355f4441315f5175657374696f6e2e706466);
 
 -- --------------------------------------------------------
 

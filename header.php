@@ -38,7 +38,7 @@ ob_start();
                 <div class="art-Header">
                     <div class="art-Header-jpeg"></div>
                     <div class="art-Logo">
-                        <h1 id="name-text" class="art-Logo-name"><a href="#">FRESHERS GUIDANCE PORTAL</a></h1>
+                        <h1 id="name-text" class="art-Logo-name" style="text-align: center;"><a style="text-align:center;color: white; background-color: rgba(0,0,0,0.6);" href="#">FRESHERS GUIDANCE PORTAL</a></h1>
                         <div id="slogan-text" class="art-Logo-text"></div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ ob_start();
 <li><a href="messages.php" id="amessage"><span class="l"></span><span class="r"></span><span class="t">Message</span></a></li>
 <li><a href="information.php" id="ainformation"><span class="l"></span><span class="r"></span><span class="t">General Information</span></a></li>
 <li><a href="qp.php" id="aqp"><span class="l"></span><span class="r"></span><span class="t">Question Papers</span></a></li>
-<li><a href="circular.php" id="circular"><span class="l"></span><span class="r"></span><span class="t">Circulars</span></a></li>
+
 
 </ul>
                 </div>

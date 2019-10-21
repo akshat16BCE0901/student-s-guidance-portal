@@ -1615,3 +1615,18 @@ vertical-align:text-bottom;
 /* end LayoutCell */
 
 
+.box3 .head
+{
+	display:block;
+	height:30px;
+	background-color:#999999;
+	font-weight:bold;
+	line-height:30px;
+}
+
+.box3{
+	margin-left: 10px;
+	width: auto;
+	background-color:#CCC;
+	display:block;
+}

@@ -31,10 +31,9 @@
 <table>
 <tr>Heading:<br><textarea rows="1" cols="30" name="head"></textarea><span id='a' style="color: red;"></span></tr><br/>
 <tr><tr>Enter your question:<br/><textarea id="result" rows="3" cols="60" name="ta" ></textarea><span id='b' style="color: red;"></span></tr><br/>
-<tr><td><input type="submit" value="Post">&nbsp;&nbsp;<input type="button" id="dd" onclick="startconvert();" value="Record"></td><td><input type="reset" value="Clear"></td></tr>
+<tr><td><input type="submit" value="Post"></td><td><input type="reset" value="Clear">&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="dd" onclick="startconvert();" value="Record">&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="trans" value="Translate" /></td></tr>
 </table>
 </form>
-
 <script type="text/javascript">
 		var r  = document.getElementById('result');
 		function startconvert()
@@ -63,7 +62,7 @@
 							interimTranscripts+=transcript;
 						}
 					}
-					r.innerHTML = finalTranscripts + interimTranscripts;
+					r.innerHTML = finalTranscripts  + interimTranscripts;
 				};
 				speechRecognizer.onerror = function(event){
 					console.log(event);
@@ -74,7 +73,6 @@
 				r.innerHTML = "Browser not supported.";
 			}
 		}
-
 		$('#trans').unbind().click(function()
 		{
 			$.ajax({

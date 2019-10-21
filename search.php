@@ -24,23 +24,23 @@ function check(f)
     	<input type="text" name="utos" /><span id='spuid' style="color: red;"></span> 
         <br/>
         <br/>
-        <input type="submit" name="hh" value="Click Me" />
+        <input type="submit" value="Click Me" />
     </p>
 </form>
 
 <?php
-if (isset($_POST['hh']))
+if (isset($_POST['utos']))
 {
 $uto=$_POST['utos'];
 
 $sql="SELECT * FROM user WHERE fullname LIKE '$uto%'";
 $rows=ExecuteQuery($sql);
 
-if (mysqli_num_rows($rows) > 0)
+if (mysql_num_rows($rows) > 0)
 {
 	echo "<table cellpadding='2' cellspacing='2'>";
 	
-	while ($row = mysqli_fetch_array($rows))
+	while ($row = mysql_fetch_array($rows))
 	{
 		echo "<tr>";
 		echo "<td valign='top'><img src='$row[uimg]' alt='' style='height:100px; width:100px;' />";

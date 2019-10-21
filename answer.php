@@ -20,7 +20,7 @@ require("checkUser.php")?>
 <?php
 $sql="SELECT heading from question where question_id="+$_GET['id'];
 $rows=ExecuteQuery($sql);
-$row=mysqli_fetch_array($rows);
+$row=mysql_fetch_array($rows);
 ?>
 
 <form action="answerH.php" method="POST" onsubmit="return check(this)">
@@ -60,7 +60,7 @@ $row=mysqli_fetch_array($rows);
 							interimTranscripts+=transcript;
 						}
 					}
-					r.innerHTML = finalTranscripts + interimTranscripts;
+					r.innerHTML = finalTranscripts  + interimTranscripts;
 				};
 				speechRecognizer.onerror = function(event){
 					console.log(event);
@@ -71,7 +71,6 @@ $row=mysqli_fetch_array($rows);
 				r.innerHTML = "Browser not supported.";
 			}
 		}
-
 		$('#trans').unbind().click(function()
 		{
 			$.ajax({
@@ -88,5 +87,6 @@ $row=mysqli_fetch_array($rows);
 			});
 		});
 	</script>
+
 
 <?php require("footer.php")?>

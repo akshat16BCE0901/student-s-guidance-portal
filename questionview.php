@@ -11,12 +11,12 @@ $res=ExecuteNonQuery($upd);
 $str="SELECT * from question, user where  user.user_id=question.user_id AND question_id=$_GET[qid]";
 	$result=ExecuteQuery($str);
 	
-	$no_rows = mysqli_num_rows($result);
+	$no_rows = mysql_num_rows($result);
 	$head="";
 	
 	if ($no_rows > 0)
 	{	
-		while($row = mysqli_fetch_array($result))
+		while($row = mysql_fetch_array($result))
 		{
 			
 			

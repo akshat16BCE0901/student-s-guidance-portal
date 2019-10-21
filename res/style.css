@@ -46,7 +46,7 @@
 { float:right;
 	}
 .heading{
-	color:#ffffff;
+	color:red;
 	font-weight: bold;
 	padding: 5px;
 	line-height:20px;
@@ -290,27 +290,18 @@ div.art-Header-jpeg
 	left: 0;
 	width: 900px;
 	height: 150px;
-	background-image: url('images/1.jpeg');
-	background-color: red;
+	/*background-image: url('images/vit2.jpg');	*/
+	background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+url('images/vit2.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 /* end Header */
 
 /* begin Logo */
-.art-Logo
-{
-	display : block;
-	position: absolute;
-	left: 10px;
-	top: 42px;
-	width: 583px;
-}
 
 h1.art-Logo-name
 {
-	display: block;
-	text-align: center;
 }
 
 h1.art-Logo-name, h1.art-Logo-name a, h1.art-Logo-name a:link, h1.art-Logo-name a:visited, h1.art-Logo-name a:hover
@@ -320,7 +311,7 @@ h1.art-Logo-name, h1.art-Logo-name a, h1.art-Logo-name a:link, h1.art-Logo-name 
 	text-decoration: none;
 	padding:0;
 	margin:0;
-	color: #38250F !important;
+	color: #38250F;
 }
 
 .art-Logo-text
@@ -522,7 +513,7 @@ h1.art-Logo-name, h1.art-Logo-name a, h1.art-Logo-name a:link, h1.art-Logo-name 
 	font-family: Georgia, "Times New Roman", Times, Serif;
 	font-size: 14px;
 	color: #071E27;
-	padding: 0 11px;
+	padding: 0 14px;
 	margin: 0 9px;
 	line-height: 27px;
 	text-align: center;
@@ -595,7 +586,7 @@ h1.art-Logo-name, h1.art-Logo-name a, h1.art-Logo-name a:link, h1.art-Logo-name 
 	margin-right: auto;
 
 
-	/*background-image: url('images/subitem-bg.png');*/
+	background-image: url('images/subitem-bg.png');
 	background-position: left top;
 	background-repeat: repeat-x;
 	border-width: 1px;
@@ -1178,7 +1169,7 @@ a:link
 {
   font-family: Georgia, "Times New Roman", Times, Serif;
   text-decoration: none;
-  color: #186C8B;
+  color: blue;
 }
 
 /* Adds special style to a visited link. */
@@ -1186,7 +1177,7 @@ a:visited, a.visited
 {
   font-family: Georgia, "Times New Roman", Times, Serif;
   text-decoration: none;
-  color: #525252;
+  color: blue;
 }
 
 /* :hover - adds special style to an element when you mouse over it. */

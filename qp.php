@@ -1,11 +1,14 @@
-<?php require("header.php");
+<?php 
+session_start();
+require("header.php");
+require("checkUser.php");
 
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Question Papers </title>
+<title>CSS Website Layout</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>

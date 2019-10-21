@@ -1,17 +1,26 @@
 <?php
 error_reporting(1);
-	
 	function ExecuteQuery ($SQL)
 	{	
-		$con=mysqli_connect("localhost", "root","","tech_forum");
-		$rows = mysqli_query($con,$SQL);
+		$con=mysql_connect ("localhost", "root","");
+		mysql_select_db ("tech_forum",$con);
+		
+		$rows = mysql_query ($SQL);
+		
+		mysql_close ();
+		
 		return $rows;
 	}
 	
 	function ExecuteNonQuery ($SQL)
 	{
-		$con=mysqli_connect ("localhost", "root","","tech_forum");
-		$rows = mysqli_query($con,$SQL);
-		return $rows;
+		$con=mysql_connect ("localhost", "root","");
+		mysql_select_db ("tech_forum",$con);
+		
+		$result = mysql_query ($SQL);
+		
+		mysql_close ();
+		
+		return $result;
 	}
 ?>

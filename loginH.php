@@ -9,9 +9,9 @@ $pwd=$_POST["pwd"];
 		$sql="select * from user where username='$uid' and password='$pwd'"	;
 		$result = ExecuteQuery($sql);
 		
-		if (mysqli_num_rows($result)>0)
+		if (mysql_num_rows($result)==1)
 		{
-			$row = mysqli_fetch_array($result);
+			$row = mysql_fetch_array($result);
 			
 			session_start();
 			$_SESSION["uid"]= $row["user_id"];

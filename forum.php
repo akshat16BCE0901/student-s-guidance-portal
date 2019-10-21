@@ -16,13 +16,13 @@
 <?php
 	$topic = ExecuteQuery ("SELECT * FROM topic");
 	
-	while ($r1 = mysqli_fetch_array($topic))
+	while ($r1 = mysql_fetch_array($topic))
 	{
 			echo "<div class='heading'>$r1[topic_name]</div>";
 		
 			$stopic = ExecuteQuery ("SELECT * FROM subtopic WHERE topic_id=$r1[topic_id]");	
 			
-			while ($r2 = mysqli_fetch_array ($stopic) )
+			while ($r2 = mysql_fetch_array ($stopic) )
 			{
 				echo "<div class='box'>";
 				echo "<div class='sub-heading'>

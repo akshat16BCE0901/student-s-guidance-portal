@@ -79,17 +79,17 @@ body {
 <div class="row">
   <div class="column">
     <h2>Bihari Dhaba</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Bihari Dhaba is situated right in front of VIT Main Gate.It has specialised taste in North Indian Cuisines like Paneer Masala,Chicken Masala,Cholle Bhature etc.You can also find buffet on certain occassions.Cost for two is approx 300 Rs.</p>
 <img src="bihari.jpg" width=240 height=300>
   </div>
   <div class="column">
     <h2>Vellore Kitchen</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Vellore Kitchen is around 3-4 km from VIT.You may have to take a bus or rickshaw to get there.People crave its biryani and sizzler.Cost for 2 is approx 500 Rs.You may have to make prior bookings since the place is always crowded.</p>
 <img src="vellore.jpg" width=240 height=300>
   </div>
   <div class="column">
     <h2>Earth Plate</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Earth Plate is a multicuisine restaurant where you will find Chinese,Italian,sizzlers,North Indian etc.Its around 5-6 km from VIT and you have to take a rickshaw or bus till Old bus stand to get there.It is a little expensive and may cost around 700 Rs. for 2 people.</p>
 <img src="earth.jpg" width=240 height=300>
   </div>
 </div>
